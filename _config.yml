@@ -84,26 +84,18 @@ content:
   - title: Publication
     layout: list
     content:
-      - sub_title: >
-          ???
-        description: |
-          - Nam, J., Min, H., Shin, J., and Jung, J., ""
-      - sub_title: >
-          Temporal Convolutional Network-Based Time-Series Segmentation (BigComp 2023)
-        description: |
+      - ???
+      - Nam, J., Min, H., Shin, J., and Jung, J.
+      - Temporal Convolutional Network-Based Time-Series Segmentation (BigComp 2023)
           - Min, H. and Lee, J.
           - pp. 269 ~ 276, Feb. 2023 (regular paper)
-      - sub_title: >
-          COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies (AAAI 2022)
-        description: |
+      - "COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies (AAAI 2022)"
           - Kim, D., Min, H., Nam, Y., Song, H., Yoon, S., Kim, M., and Lee, J.
-          - pp. 11971 ~ 11981, Feb. 2022 (top conference, oral paper, acceptance rate: 15.0%)
-      - sub_title: >
-          Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea. (KDD 2020)
-        description: |
+          - "pp. 11971 ~ 11981, Feb. 2022 (top conference, oral paper, acceptance rate: 15.0%)"
+      - "Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea. (KDD 2020)"
           - Kim, M., Kang, J., Dim, H. Song, H. Min, Y. Nam, D. Park, and JG. Lee.
           - Oral Presentation
-
+          
   - title: Experience
     layout: list
     content:
