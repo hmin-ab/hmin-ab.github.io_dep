@@ -20,13 +20,13 @@ darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  https://github.com/hmin0503
+github_username:  hmin0503
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://www.linkedin.com/in/hyangsukmin
+linkedin_username: hyangsukmin
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -58,36 +58,38 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
-  #                     # other value (or no value) means no border will be displayed
-  #       title: Project name
-  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       link_text: Link Text
-  #       additional_links:
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       quote: >
-  #         Short overview of the project (optional)
-  #       description: | # this will include new lines to allow paragraphs
-  #         Description about the work on/with the project
-  - title: Publication
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
+  - title: Publications
     layout: text
     content: |
         [c4] J. Nam, **H. Min**, J. Shin, J. Jung. S. Ko. TITLE. EVS37 2024.
         [c3] **H. Min**, and J. Lee, "Temporal Convolutional Network-Based Time-Series Segmentation," In Proc. 2023 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp), Jeju, Korea, pp. 269 ~ 276, Feb. 2023 (regular paper).
         [c2] D. Kim, H. Min, Y. Nam, H. Song, S. Yoon, M. Kim, and J. Lee, "COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies," In Proc. 36th AAAI Conf. on Artificial Intelligence (AAAI), Virtual Event, pp. 11971 ~ 11981, Feb. 2022 (top conference, oral paper, acceptance rate: 15.0%). 
         [c1] M. Kim, J. Kang, D. Kim, H. Song, H. Min, Y. Nam, D. Park, and J. Lee, "Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea," In Proc. 26th ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining (KDD), Virtual Event, California, pp. 3466 ~ 3473, Aug. 2020 (top conference, AI for COVID track).
+  
   - title: Experience
     layout: list
     content:
@@ -115,6 +117,7 @@ content:
           1. TensorFlow 활용 AI Vision 개발 
           2. 반도체 칩 디자인 
           3. Perl 활용 데이터 요약
+  
   - title: Education
     layout: list
     content:
