@@ -84,37 +84,46 @@ content:
   - title: Publications
     layout: text
     content: |
-        - [c4] J. Nam, **H. Min**, J. Shin, J. Jung. S. Ko. TITLE. EVS37, Apr. 2024 (regular paper).
-        - [c3] **H. Min**, and J. Lee, "Temporal Convolutional Network-Based Time-Series Segmentation," In Proc. 2023 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp), Jeju, Korea, pp. 269 ~ 276, Feb. 2023 (regular paper).
-        - [c2] D. Kim, H. Min, Y. Nam, H. Song, S. Yoon, M. Kim, and J. Lee, "COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies," In Proc. 36th AAAI Conf. on Artificial Intelligence (AAAI), Virtual Event, pp. 11971 ~ 11981, Feb. 2022 (top conference, oral paper, acceptance rate: 15.0%). 
-        - [c1] M. Kim, J. Kang, D. Kim, H. Song, **H. Min**, Y. Nam, D. Park, and J. Lee, "Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea," In Proc. 26th ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining (KDD), Virtual Event, California, pp. 3466 ~ 3473, Aug. 2020 (top conference, AI for COVID track).
-  # - title: Experience
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: [HL Mando](https://www.hlmando.com/ko/solution/sw.do)
-  #       sub_title: Engineer
-  #       caption: October 2022 - present # Date Range (eg. November 2016 - present)
-  #       # link:  # Link to company (optional)
-  #       quote: >
-  #         차량 샤시 제품 개발 및 소프트웨어 개발...
-  #         # Short description of the company (optional)
-  #       description: | # this will include new lines to allow paragraphs
-  #         1. SDV 위한 차량 예지보전 MLOps 개발
-  #         2. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발
-  #         3. Smart Factory Vision 모델 데이터 불균형 문제 해소를 위한 GAN 활용
-  #         4. LLM 활용 합성 데이터 생성 및 객체 탐지 모델 성능 향상
-  #     - layout: left
-  #       title: [Uniquify](https://www.uniquify.com)
-  #       sub_title: Engineer
-  #       caption: August 2018 - June 2019
-  #       # link: 
-  #       quote: >
-  #         팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
-  #       description: |
-  #         1. TensorFlow 활용 AI Vision 개발 
-  #         2. 반도체 칩 디자인 
-  #         3. Perl 활용 데이터 요약
+        - [c4] TITLE
+          - J. Nam, **H. Min**, J. Shin, J. Jung. S. Ko. 
+          - EVS37, Apr. 2024 (regular paper).
+        - [c3] Temporal Convolutional Network-Based Time-Series Segmentation
+          - **H. Min**, and J. Lee
+          - In Proc. 2023 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp), Jeju, Korea, pp. 269 ~ 276, Feb. 2023 (regular paper).
+        - [c2] COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies
+          - D. Kim, **H. Min**, Y. Nam, H. Song, S. Yoon, M. Kim, and J. Lee
+          - In Proc. 36th AAAI Conf. on Artificial Intelligence (AAAI), Virtual Event, pp. 11971 ~ 11981, Feb. 2022
+          - top conference, oral paper, acceptance rate: 15.0%
+        - [c1] Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea
+          - M. Kim, J. Kang, D. Kim, H. Song, **H. Min**, Y. Nam, D. Park, and J. Lee
+          - In Proc. 26th ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining (KDD), Virtual Event, California, pp. 3466 ~ 3473, Aug. 2020
+          - top conference, AI for COVID track
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left # top-right
+        title: [HL Mando](https://www.hlmando.com/ko/solution/sw.do)
+        sub_title: Engineer
+        caption: October 2022 - present # Date Range (eg. November 2016 - present)
+        # link:  # Link to company (optional)
+        quote: >
+          차량 샤시 제품 개발 및 소프트웨어 개발...
+        description: | # this will include new lines to allow paragraphs
+          1. SDV 위한 차량 예지보전 MLOps 개발
+          2. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발
+          3. Smart Factory Vision 모델 데이터 불균형 문제 해소를 위한 GAN 활용
+          4. LLM 활용 합성 데이터 생성 및 객체 탐지 모델 성능 향상
+      # - layout: left
+      #   title: [Uniquify](https://www.uniquify.com)
+      #   sub_title: Engineer
+      #   caption: August 2018 - June 2019
+      #   # link: 
+      #   quote: >
+      #     팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
+      #   description: |
+      #     1. TensorFlow 활용 AI Vision 개발 
+      #     2. 반도체 칩 디자인 
+      #     3. Perl 활용 데이터 요약
   - title: Education
     layout: list
     content:
