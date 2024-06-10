@@ -67,8 +67,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Synthetic Image
-        sub_title: LLM 활용 Zero-shot 합성 이미지 생성
+        title: Zero-shot Synthetic Image Generation
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -79,14 +78,13 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          LLM 활용 Zero-shot 합성 이미지 생성
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Synthetic Image
-        sub_title: Synthetic Image Generation with Generative Adversarial Networks for Smart Factory
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -97,7 +95,7 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Synthetic Image Generation with Generative Adversarial Networks for Smart Factory
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
       - layout: left
@@ -120,20 +118,15 @@ content:
   - title: Publications
     layout: text
     content: |
-        - [c4] TITLE
+        - [c4] TITLE, EVS37, Apr. 2024 (regular paper)
           - J. Nam, **H. Min**, J. Shin, J. Jung. S. Ko. 
-          - EVS37, Apr. 2024 (regular paper).
-        - [c3] Temporal Convolutional Network-Based Time-Series Segmentation
+        - [c3] Temporal Convolutional Network-Based Time-Series Segmentation, BigComp, Feb. 2023 (regular paper)
           - **H. Min**, and J. Lee
-          - In Proc. 2023 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp), Jeju, Korea, pp. 269 ~ 276, Feb. 2023 (regular paper).
-        - [c2] COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies
+        - [c2] COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies, AAAI, Feb. 2022 (oral paper)
           - D. Kim, **H. Min**, Y. Nam, H. Song, S. Yoon, M. Kim, and J. Lee
-          - In Proc. 36th AAAI Conf. on Artificial Intelligence (AAAI), Virtual Event, pp. 11971 ~ 11981, Feb. 2022
-          - top conference, oral paper, acceptance rate: 15.0%
-        - [c1] Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea
+        - [c1] Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea, KDD, Aug. 2020
           - M. Kim, J. Kang, D. Kim, H. Song, **H. Min**, Y. Nam, D. Park, and J. Lee
-          - In Proc. 26th ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining (KDD), Virtual Event, California, pp. 3466 ~ 3473, Aug. 2020
-          - top conference, AI for COVID track
+          - AI for COVID track
   - title: Experiences
     layout: list
     content:
@@ -168,6 +161,7 @@ content:
     content:
       - layout: top-left # top-right
         title: KAIST 
+        border: weak  
         sub_title: MS in Data Science # (eg. BA Performing Arts)
         caption: 2020.03 - 2022.08 # Date Range (eg. 2016 - 2019)
         # quote: >
