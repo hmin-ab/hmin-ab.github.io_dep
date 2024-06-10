@@ -112,7 +112,7 @@ content:
         # link: 
         quote: >
           팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
-        description:
+        description: |
           1. TensorFlow 활용 AI Vision 개발 
           2. 반도체 칩 디자인 
           3. Perl 활용 데이터 요약
