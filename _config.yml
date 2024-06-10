@@ -124,8 +124,7 @@ content:
           - **H. Min**, and J. Lee
         - [c2] COVID-EENet: Predicting Fine-Grained Impact of COVID-19 on Local Economies, AAAI, Feb. 2022 (oral paper)
           - D. Kim, **H. Min**, Y. Nam, H. Song, S. Yoon, M. Kim, and J. Lee
-        - [c1] Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea,  
-               KDD, Aug. 2020 (AI for COVID track)
+        - [c1] Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea, KDD, Aug. 2020 (AI for COVID track)
           - M. Kim, J. Kang, D. Kim, H. Song, **H. Min**, Y. Nam, D. Park, and J. Lee
   - title: Experiences
     layout: list
