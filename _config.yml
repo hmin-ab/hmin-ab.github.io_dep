@@ -67,7 +67,43 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: Synthetic Image
+        sub_title: LLM 활용 Zero-shot 합성 이미지 생성
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Synthetic Image
+        sub_title: Synthetic Image Generation with Generative Adversarial Networks for Smart Factory
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SDV PhM/Smart Factory MLOps 
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -98,14 +134,16 @@ content:
           - M. Kim, J. Kang, D. Kim, H. Song, **H. Min**, Y. Nam, D. Park, and J. Lee
           - In Proc. 26th ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining (KDD), Virtual Event, California, pp. 3466 ~ 3473, Aug. 2020
           - top conference, AI for COVID track
-  - title: Education
+  - title: Experiences
     layout: list
     content:
       - layout: top-left # top-right
-        title: HL Mando #[HL Mando](https://www.hlmando.com/ko/solution/sw.do)
+        border: weak 
+        title: HL Mando 
         sub_title: Engineer
         caption: October 2022 - present # Date Range (eg. November 2016 - present)
-        # link:  # Link to company (optional)
+        link: https://www.hlmando.com/ko/solution/sw.do
+        link_text: HL Mando SW Campus
         quote: >
           차량 샤시 제품 개발 및 소프트웨어 개발...
         description: | # this will include new lines to allow paragraphs
@@ -113,17 +151,18 @@ content:
           2. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발
           3. Smart Factory Vision 모델 데이터 불균형 문제 해소를 위한 GAN 활용
           4. LLM 활용 합성 데이터 생성 및 객체 탐지 모델 성능 향상
-      # - layout: left
-      #   title: [Uniquify](https://www.uniquify.com)
-      #   sub_title: Engineer
-      #   caption: August 2018 - June 2019
-      #   # link: 
-      #   quote: >
-      #     팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
-      #   description: |
-      #     1. TensorFlow 활용 AI Vision 개발 
-      #     2. 반도체 칩 디자인 
-      #     3. Perl 활용 데이터 요약
+      - layout: left
+        title: Uniquify
+        sub_title: Engineer
+        caption: August 2018 - June 2019
+        link: https://www.uniquify.com)
+        link_text: Uniquify Homepage
+        quote: >
+          팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
+        description: |
+          1. TensorFlow 활용 AI Vision 개발 
+          2. ASIC PnR & ECO
+          3. Perl 활용 타이밍 레포트 요약 프로그램 개발
   - title: Education
     layout: list
     content:
