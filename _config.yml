@@ -102,7 +102,7 @@ content:
     layout: list
     content:
       - layout: top-left # top-right
-        title: [HL Mando](https://www.hlmando.com/ko/solution/sw.do)
+        title: HL Mando #[HL Mando](https://www.hlmando.com/ko/solution/sw.do)
         sub_title: Engineer
         caption: October 2022 - present # Date Range (eg. November 2016 - present)
         # link:  # Link to company (optional)
