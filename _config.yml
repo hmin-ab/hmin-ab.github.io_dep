@@ -50,14 +50,11 @@ googlescholar_username: U24LXHAAAAAJ
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/portrait.jpg # Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/half_front.jpg # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+  I'm an AI research engineer at HL Mando. I'm currently working on MLOps develeopment for smart factory and sofrware-defined vehicle. 
+  Also, I'm researching Large Language Models(LLMs) to improve the software development efficeicny. 
+  Interested in (1), (2), (3)
 # - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
@@ -75,7 +72,7 @@ content:
   - title: Experiences
     layout: list
     content:
-      - layout: top-left # top-right
+      - layout: left # top-right
         border: weak 
         title: HL Mando 
         sub_title: Engineer
@@ -83,22 +80,21 @@ content:
         link: https://www.hlmando.com/ko/solution/sw.do
         link_text: HL Mando SW Campus
         quote: >
-          MLOps & AI Research
-          SDV 및 Smart Factory MLOps 시스템 개발 및 합성 데이터 생성 방법론 개발
+          차량용 통합 소프트웨어 솔루션 제공
         description: | # this will include new lines to allow paragraphs
           1. SDV Phm을 위한 MLOps 시스템 개발 (2023)
           2. GAN 활용 부품 불량 이미지 생성을 통한 데이터 불균형 문제 해소 (2023)
-          3. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발 (2024)
+          3. Smart Factory 위한 부품 불량 탐지 Vision 모델 및 MLOps 개발 (2024)
           4. LLM 활용 합성 데이터 생성을 통한 객체 탐지 모델 성능 향상 (2024)
           5. LLM 활용 AI Digital Transformation (2024 ~ )
       - layout: left
         title: Uniquify
         sub_title: Engineer
         caption: August 2018 - June 2019
-        link: https://www.uniquify.com)
-        link_text: Uniquify Homepage
+        link: https://www.uniquify.com
+        link_text: Uniquify
         quote: >
-          팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
+          ASIC 개발, SoC설계 및 IP solutions 제공 업체
         description: | 
           1. ASIC PnR & ECO
           2. Perl 활용 Timing/Violation Report 요약 프로그램 개발
@@ -114,7 +110,7 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - Advisor: Hwanjun Song
+          - Advisor: Hwanjun Song (<a href="disl-lab.github.io/">Data Intelligence System Lab</a>)
       - layout: top-left # top-right
         title: KAIST 
         border: weak  
@@ -123,8 +119,8 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - GPA (4.12/4.3)
-          - Advisor: Jae-Gil Lee (Data Mining Lab)
+          - GPA: 4.12/4.3
+          - Advisor: Jae-Gil Lee (<a href="kaistdmlab.org">Data Mining Lab</a>)
           - Thesis: Temporal Convolutional Network-Based Time-Series Segmentation
       - layout: top- left # top-right
         title: Kookmin University
@@ -133,7 +129,7 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - GPA (4.4/4.5)
+          - GPA: 4.4/4.5
           - Final Project: Music Recommendation System Based-on Text
   # - title: A Little More About Me
   #   layout: text
