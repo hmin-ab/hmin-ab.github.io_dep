@@ -72,7 +72,7 @@ content:
   - title: Experiences
     layout: list
     content:
-      - layout: left # top-right
+      - layout: top # top-right
         border: weak 
         title: HL Mando 
         sub_title: Engineer
@@ -87,7 +87,7 @@ content:
           3. Smart Factory 위한 부품 불량 탐지 Vision 모델 및 MLOps 개발 (2024)
           4. LLM 활용 합성 데이터 생성을 통한 객체 탐지 모델 성능 향상 (2024)
           5. LLM 활용 AI Digital Transformation (2024 ~ )
-      - layout: left
+      - layout: top
         title: Uniquify
         sub_title: Engineer
         caption: August 2018 - June 2019
@@ -110,7 +110,7 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - Advisor: Hwanjun Song (<a href="disl-lab.github.io/">Data Intelligence System Lab</a>)
+          - Advisor: Hwanjun Song (<a href="https://disl-lab.github.io/">Data Intelligence System Lab</a>)
       - layout: top-left # top-right
         title: KAIST 
         border: weak  
@@ -120,7 +120,7 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           - GPA: 4.12/4.3
-          - Advisor: Jae-Gil Lee (<a href="kaistdmlab.org">Data Mining Lab</a>)
+          - Advisor: Jae-Gil Lee (<a href="https://kaistdmlab.org">Data Mining Lab</a>)
           - Thesis: Temporal Convolutional Network-Based Time-Series Segmentation
       - layout: top- left # top-right
         title: Kookmin University
