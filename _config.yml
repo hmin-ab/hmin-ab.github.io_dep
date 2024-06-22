@@ -61,60 +61,6 @@ about_content: | # this will include new lines to allow paragraphs
 # - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Zero-shot Synthetic Image Generation
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          LLM 활용 Zero-shot 합성 이미지 생성
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Synthetic Image
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Synthetic Image Generation with Generative Adversarial Networks for Smart Factory
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: SDV PhM/Smart Factory MLOps 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Publications
     layout: text
     content: |
@@ -137,12 +83,14 @@ content:
         link: https://www.hlmando.com/ko/solution/sw.do
         link_text: HL Mando SW Campus
         quote: >
-          차량 샤시 제품 개발 및 소프트웨어 개발...
+          MLOps & AI Research
+          SDV 및 Smart Factory MLOps 시스템 개발 및 합성 데이터 생성 방법론 개발
         description: | # this will include new lines to allow paragraphs
-          1. SDV 위한 차량 예지보전 MLOps 개발
-          2. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발
-          3. Smart Factory Vision 모델 데이터 불균형 문제 해소를 위한 GAN 활용
-          4. LLM 활용 합성 데이터 생성 및 객체 탐지 모델 성능 향상
+          1. SDV Phm을 위한 MLOps 시스템 개발 (2023)
+          2. GAN 활용 부품 불량 이미지 생성을 통한 데이터 불균형 문제 해소 (2023)
+          3. Smart Factory 위한 부품 불량 탐지 Vision 모델 개발 및 MLOps 개발 (2024)
+          4. LLM 활용 합성 데이터 생성을 통한 객체 탐지 모델 성능 향상 (2024)
+          5. LLM 활용 AI Digital Transformation (2024 ~ )
       - layout: left
         title: Uniquify
         sub_title: Engineer
@@ -151,13 +99,22 @@ content:
         link_text: Uniquify Homepage
         quote: >
           팹리스 회사로 반도체 칩 디자인, AI 반도체 개발
-        description: |
-          1. TensorFlow 활용 AI Vision 개발 
-          2. ASIC PnR & ECO
-          3. Perl 활용 타이밍 레포트 요약 프로그램 개발
+        description: | 
+          1. ASIC PnR & ECO
+          2. Perl 활용 Timing/Violation Report 요약 프로그램 개발
+          3. TensorFlow 활용 AI Vision 개발
   - title: Education
     layout: list
     content:
+      - layout: top-left
+        title: KAIST 
+        border: weak  
+        sub_title: PhD in Industrial & System Engineering # (eg. BA Performing Arts)
+        caption: 2024.09 - Present # Date Range (eg. 2016 - 2019)
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Advisor: Hwanjun Song
       - layout: top-left # top-right
         title: KAIST 
         border: weak  
@@ -166,8 +123,9 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - GPA (4.12/4.3) # Description of qualification
-          - Advisor: Jae-Gil Lee
+          - GPA (4.12/4.3)
+          - Advisor: Jae-Gil Lee (Data Mining Lab)
+          - Thesis: Temporal Convolutional Network-Based Time-Series Segmentation
       - layout: top- left # top-right
         title: Kookmin University
         sub_title: BS in Data Science # (eg. BA Performing Arts)
@@ -175,7 +133,8 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - GPA (4.4/4.5) # Description of qualification
+          - GPA (4.4/4.5)
+          - Final Project: Music Recommendation System Based-on Text
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
