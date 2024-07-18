@@ -102,15 +102,6 @@ content:
   - title: Education
     layout: list
     content:
-      # - layout: top-left
-      #   title: KAIST 
-      #   border: weak  
-      #   sub_title: PhD in Industrial & System Engineering # (eg. BA Performing Arts)
-      #   caption: 2024.09 - Present # Date Range (eg. 2016 - 2019)
-      #   # quote: >
-      #   #   Short institution or course description (optional)
-      #   description: | # this will include new lines to allow paragraphs
-      #     - Advisor: Hwanjun Song (<a href="https://disl-lab.github.io/">Data Intelligence System Lab</a>)
       - layout: top-left # top-right
         title: KAIST 
         border: weak  
